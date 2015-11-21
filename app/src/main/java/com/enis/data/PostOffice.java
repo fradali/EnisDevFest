@@ -9,7 +9,7 @@ public class PostOffice {
     private String address;
 
     private String telephone;
-    private LocationOffice locationOffice;
+    private Location locationOffice;
 
     public String getName() {
         return name;
@@ -45,36 +45,13 @@ public class PostOffice {
         this.telephone = telephone;
     }
 
-    public LocationOffice getLocationOffice() {
+    public Location getLocationOffice() {
         return locationOffice;
     }
 
-    public void setLocationCar(LocationOffice locationoffice) {
+    public void setLocation(Location locationoffice) {
         this.locationOffice = locationoffice;
     }
-
-    public static class LocationOffice{
-        private String longi;
-        private String lat;
-
-        public String getLongi() {
-            return longi;
-        }
-
-        public void setLongi(String longi) {
-            this.longi = longi;
-        }
-
-        public String getLat() {
-            return lat;
-        }
-
-        public void setLat(String lat) {
-            this.lat = lat;
-        }
-    }
-
-
 
 
 }

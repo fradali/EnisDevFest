@@ -10,7 +10,7 @@ public class CarRentalAgency {
     private String address;
     private String website;
     private String telephone;
-    private LocationCar locationCar;
+    private Location locationCar;
 
     public String getName() {
         return name;
@@ -52,34 +52,13 @@ public class CarRentalAgency {
         this.telephone = telephone;
     }
 
-    public LocationCar getLocationCar() {
+    public Location getLocationCar() {
         return locationCar;
     }
 
-    public void setLocationCar(LocationCar locationCar) {
+    public void setLocationCar(Location locationCar) {
         this.locationCar = locationCar;
     }
-
-   public static class LocationCar{
-       private String longi;
-       private String lat;
-
-       public String getLongi() {
-           return longi;
-       }
-
-       public void setLongi(String longi) {
-           this.longi = longi;
-       }
-
-       public String getLat() {
-           return lat;
-       }
-
-       public void setLat(String lat) {
-           this.lat = lat;
-       }
-   }
 
 
 

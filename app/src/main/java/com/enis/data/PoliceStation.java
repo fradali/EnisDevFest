@@ -7,7 +7,7 @@ public class PoliceStation {
 private String name;
 private String city;
 private String address;
-private Locationpolice locationpolice;
+private Location locationpolice;
 
     public String getName() {
         return name;
@@ -33,35 +33,12 @@ private Locationpolice locationpolice;
         this.address = address;
     }
 
-    public Locationpolice getLocationpolice() {
+    public Location getLocationpolice() {
         return locationpolice;
     }
 
-    public void setLocationpolice(Locationpolice locationpolice) {
+    public void setLocationpolice(Location locationpolice) {
         this.locationpolice = locationpolice;
-    }
-
-
-
-    public static class Locationpolice {
-        private String longi;
-        private String lat;
-
-        public String getLongi() {
-            return longi;
-        }
-
-        public void setLongi(String longi) {
-            this.longi = longi;
-        }
-
-        public String getLat() {
-            return lat;
-        }
-
-        public void setLat(String lat) {
-            this.lat = lat;
-        }
     }
 
 
