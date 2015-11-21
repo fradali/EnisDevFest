@@ -19,9 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="com.enis.robospice.SampleSpiceService"
+            android:exported="false" />
     </application>
 
-    <service
-        android:name=".SampleSpiceService"
-        android:exported="false" />
 </manifest>
