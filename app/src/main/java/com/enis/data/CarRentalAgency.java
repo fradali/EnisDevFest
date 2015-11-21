@@ -60,7 +60,7 @@ public class CarRentalAgency {
         this.locationCar = locationCar;
     }
 
-   public class LocationCar{
+   public static class LocationCar{
        private String longi;
        private String lat;
 
