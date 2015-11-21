@@ -1,5 +1,7 @@
 package com.enis.data;
 
+import android.location.Location;
+
 /**
  * Created by ali on 22/11/15.
  */
@@ -7,7 +9,7 @@ public class Accommodation {
     private String address;
     private String city;
     private String typ;
-    private String location;
+    private Locationcity location;
     private String contact;
     private String hotel;
     private String name;
@@ -37,11 +39,11 @@ public class Accommodation {
         this.typ = typ;
     }
 
-    public String getLocation() {
+    public Locationcity getLocation() {
         return location;
     }
 
-    public void setLocation(String location) {
+    public void setLocation(Locationcity location) {
         this.location = location;
     }
 
@@ -76,4 +78,27 @@ public class Accommodation {
     public void setAvailability(String availability) {
         this.availability = availability;
     }
+    public  static class Locationcity{
+    private String longi ;
+    private String lat ;
+
+        public String getLongi() {
+            return longi;
+        }
+
+        public void setLongi(String longi) {
+            this.longi = longi;
+        }
+
+        public String getLat() {
+            return lat;
+        }
+
+        public void setLat(String lat) {
+            this.lat = lat;
+        }
+    }
+
+
+
 }
