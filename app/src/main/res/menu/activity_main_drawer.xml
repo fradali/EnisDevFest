@@ -3,34 +3,22 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_apartement"
-            android:title="Hotels" />
+            android:id="@+id/nav_accommodation"
+            android:icon="@drawable/ic_menu_accomodation"
+            android:title="Accommodation" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_calender"
-            android:title="Calender" />
+            android:id="@+id/nav_healthcare"
+            android:icon="@drawable/ic_menu_clinic"
+            android:title="Health Care" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_car"
-            android:title="Car Rental Agency" />
+            android:id="@+id/nav_police"
+            android:icon="@drawable/ic_menu_police"
+            android:title="Police" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_cart"
-            android:title="Shopping" />
+            android:id="@+id/nav_office"
+            android:icon="@drawable/ic_menu_post"
+            android:title="Office" />
     </group>
 
-    <item android:title="Health Care">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_clinic"
-                android:title="Hospital" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_hospital"
-                android:title="Clinic" />
-        </menu>
-    </item>
 
 </menu>

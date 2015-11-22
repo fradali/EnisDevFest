@@ -140,17 +140,13 @@ public class MainActivity extends BaseSampleSpiceActivity implements RequestList
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_accommodation) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_healthcare) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_police) {
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_office) {
 
         }
 
