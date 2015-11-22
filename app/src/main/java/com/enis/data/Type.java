@@ -5,6 +5,20 @@ package com.enis.data;
  */
 public class Type {
     private Hospital hospital;
+    private Pharmacies pharmacy;
+
+    public Pharmacies getPharmacy() {
+        return pharmacy;
+    }
+
+    public void setPharmacy(Pharmacies pharmacy) {
+        this.pharmacy = pharmacy;
+    }
+
+    public Type(Pharmacies pharmacy) {
+
+        this.pharmacy = pharmacy;
+    }
 
     public Hospital getHospital() {
         return hospital;

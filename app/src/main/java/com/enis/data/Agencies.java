@@ -3,14 +3,36 @@ package com.enis.data;
 /**
  * Created by ali on 22/11/15.
  */
-public class CarRentalAgency {
+public class Agencies {
 
     private String name;
     private String city;
     private String address;
     private String website;
-    private String telephone;
-    private Location locationCar;
+    private String phone;
+
+    public Agencies(String name, String city, String address, String website, String phone, Location location) {
+        this.name = name;
+        this.city = city;
+        this.address = address;
+        this.website = website;
+        this.phone = phone;
+        this.location = location;
+    }
+
+    public Agencies() {
+
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    private Location location;
 
     public String getName() {
         return name;
@@ -44,21 +66,14 @@ public class CarRentalAgency {
         this.website = website;
     }
 
-    public String getTelephone() {
-        return telephone;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
+    public void setPhone(String telephone) {
+        this.phone = telephone;
     }
 
-    public Location getLocationCar() {
-        return locationCar;
-    }
-
-    public void setLocationCar(Location locationCar) {
-        this.locationCar = locationCar;
-    }
 
 
 

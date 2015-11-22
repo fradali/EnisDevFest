@@ -3,11 +3,11 @@ package com.enis.data;
 /**
  * Created by ali on 22/11/15.
  */
-public class PoliceStation {
+public class Police {
 private String name;
 private String city;
 private String address;
-private Location locationpolice;
+private Location location;
 
     public String getName() {
         return name;
@@ -34,11 +34,11 @@ private Location locationpolice;
     }
 
     public Location getLocationpolice() {
-        return locationpolice;
+        return location;
     }
 
     public void setLocationpolice(Location locationpolice) {
-        this.locationpolice = locationpolice;
+        this.location = locationpolice;
     }
 
 

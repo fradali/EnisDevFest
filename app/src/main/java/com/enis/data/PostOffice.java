@@ -8,8 +8,8 @@ public class PostOffice {
     private String city;
     private String address;
 
-    private String telephone;
-    private Location locationOffice;
+    private String phone;
+    private Location location;
 
     public String getName() {
         return name;
@@ -38,19 +38,19 @@ public class PostOffice {
 
 
     public String getTelephone() {
-        return telephone;
+        return phone;
     }
 
     public void setTelephone(String telephone) {
-        this.telephone = telephone;
+        this.phone = telephone;
     }
 
     public Location getLocationOffice() {
-        return locationOffice;
+        return location;
     }
 
-    public void setLocation(Location locationoffice) {
-        this.locationOffice = locationoffice;
+    public void setLocation(Location location) {
+        this.location = location;
     }
 
 

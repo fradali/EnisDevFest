@@ -156,5 +156,3 @@ public class MainActivity extends BaseSampleSpiceActivity implements RequestList
     }
 
 }
-
-
