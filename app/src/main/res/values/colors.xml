@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="primary">#e2519a</color>
+    <color name="primary_dark">#b11f68</color>
+    <color name="accent">#e2519a</color>
+
+    <color name="textColorPrimary">#666662</color>
+
+    <color name="slider_title_normal">#ffffff</color>
+    <color name="slider_title_selected">#f5a622</color>
+
+    <color name="error_text">#d00</color>
+    <color name="Main_Color">#5cc7b2</color>
 </resources>
