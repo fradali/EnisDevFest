@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_apartement"
+            android:title="Hotels" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_calender"
+            android:title="Calender" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_car"
+            android:title="Car Rental Agency" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_cart"
+            android:title="Shopping" />
+    </group>
+
+    <item android:title="Health Care">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_clinic"
+                android:title="Hospital" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_hospital"
+                android:title="Clinic" />
+        </menu>
+    </item>
+
+</menu>
