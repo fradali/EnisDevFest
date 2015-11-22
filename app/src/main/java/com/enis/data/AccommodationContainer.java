@@ -15,12 +15,12 @@ public class AccommodationContainer {
         this.accommodation = accommodation;
     }
 
-    public ArrayList<Accommodation> getAccommodation(Accommodation a) {
+    public ArrayList<Accommodation> getAccommodations() {
         return accommodation;
     }
 
-    public void setAccommodation(ArrayList<Accommodation> accommodation) {
-        this.accommodation = accommodation;
+    public void setAccommodations(ArrayList<Accommodation> accommodations) {
+        this.accommodation = accommodations;
     }
 
 

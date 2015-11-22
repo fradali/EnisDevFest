@@ -59,8 +59,9 @@ public class MainActivity extends BaseSampleSpiceActivity implements RequestList
 
         Gson g = new Gson();
         AccommodationContainer ac = g.fromJson(s, AccommodationContainer.class);
-
-
+        for (Accommodation accommodation : ac.getAccommodations()) {
+            Ln.i(accommodation.getAddress());
+        }
     }
 
 }
