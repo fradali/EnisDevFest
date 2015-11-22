@@ -3,7 +3,7 @@ package com.enis.data;
 /**
  * Created by ali on 22/11/15.
  */
-public class Typ {
+public class Type {
     private Hospital hospital;
 
     public Hospital getHospital() {
@@ -14,11 +14,11 @@ public class Typ {
         this.hospital = hospital;
     }
 
-    public Typ() {
+    public Type() {
 
     }
 
-    public Typ(Hospital hospital) {
+    public Type(Hospital hospital) {
 
         this.hospital = hospital;
     }

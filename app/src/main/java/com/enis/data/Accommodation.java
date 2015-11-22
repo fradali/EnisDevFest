@@ -8,7 +8,7 @@ import android.location.Location;
 public class Accommodation {
     private String address;
     private String city;
-    private String typ;
+    private String type;
     private Location location;
     private String contact;
     private String hotel;
@@ -31,12 +31,12 @@ public class Accommodation {
         this.city = city;
     }
 
-    public String getTyp() {
-        return typ;
+    public String getType() {
+        return type;
     }
 
-    public void setTyp(String typ) {
-        this.typ = typ;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public Location getLocation() {

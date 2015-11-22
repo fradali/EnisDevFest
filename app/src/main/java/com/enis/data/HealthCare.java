@@ -10,7 +10,7 @@ public class HealthCare {
     private String city;
     private Location location;
     private String phone;
-    private Typ typ;
+    private Type type;
     private String address;
     private String id;
 
